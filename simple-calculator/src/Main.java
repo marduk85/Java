@@ -19,22 +19,22 @@ public class Main
             case '-' -> { //если в качестве знака выбрали минус
                 result = a - b; //вычисляем результат
                 System.out.println("Результат:\n"); //выводим текст
-                System.out.printf(a +" "+ op +" "+ b + "=" +result); //выводим выражение и его результат
+                System.out.printf(a +" "+ op +" "+ b + " = " +result); //выводим выражение и его результат
             }
             case '+' -> { //если в качестве знака выбрали плюс
                 result = a + b;
                 System.out.println("Результат:\n");
-                System.out.printf(a +" "+ op +" "+ b + "=" +result);
+                System.out.printf(a +" "+ op +" "+ b + " = " +result);
             }
             case '*' -> { //если в качестве знака выбрали умножение
                 result = a * b;
                 System.out.println("Результат:\n");
-                System.out.printf(a +" "+ op +" "+ b + "=" +result);
+                System.out.printf(a +" "+ op +" "+ b + " = " +result);
             }
             case '/' -> { //если в качестве знака выбрали деление
                 result = a / b;
                 System.out.println("Результат:\n");
-                System.out.printf(a +" "+ op +" "+ b + "=" +result);
+                System.out.printf(a +" "+ op +" "+ b + " = " +result);
             }
         }
 
