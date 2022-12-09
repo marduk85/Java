@@ -16,13 +16,28 @@ public class Main
         op = read. next().charAt(0); //считываем оператор
         //все еобходимые дынные считали теперь будет использовать switch-case для решения
         switch (op) {
-            case '-' -> result = a - b;
-            case '+' -> result = a + b;
-            case '*' -> result = a * b;
-            case '/' -> result = a / b;
+            case '-' -> {
+                result = a - b;
+                System.out.println("Результат:\n");
+                System.out.printf(a + op + b + "=" +result);
+            }
+            case '+' -> {
+                result = a + b;
+                System.out.println("Результат:\n");
+                System.out.printf(a + op + b + "=" +result);
+            }
+            case '*' -> {
+                result = a * b;
+                System.out.println("Результат:\n");
+                System.out.printf(a + op + b + "=" +result);
+            }
+            case '/' -> {
+                result = a / b;
+                System.out.println("Результат:\n");
+                System.out.printf(a + op + b + "=" +result);
+            }
         }
-        System.out.println("Результат:\n");
-        System.out.printf(a + op + b + "=" +result);
+
 
     }
 }
